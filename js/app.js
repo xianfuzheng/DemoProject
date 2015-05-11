@@ -90,5 +90,7 @@ $(document).ready(function(){
 
 
 	$(".card-input").parsley();
-	
+	$("#btnContactMe").click(function(){
+			$("#dialogContactMe").modal();
+	});
 });
